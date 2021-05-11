@@ -1,0 +1,44 @@
+@import "../fonts/gothampro/stylesheet.css";
+@import "../libs/bootsrap/bootstrap-grid.min.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+$GothamPro300 : 'Gotham Pro 300', sans-serif;
+$GothamPro500 : 'Gotham Pro 500', sans-serif;
+$GothamPro700 : 'Gotham Pro 700', sans-serif;
+$GothamPro900 : 'Gotham Pro 900', sans-serif;
+
+
+@import "text";
+@import "header";
+@import "headerNav";
+@import "headerSlider";
+@import "online";
+@import "bisnes";
+@import "people";
+@import "what";
+@import "project";
+@import "friends";
+@import "sliderOtz";
+@import "work";
+@import "price";
+@import "priceSlider";
+@import "form";
+@import "footer";
+@import "banner";
+@import "invest";
+@import "sotr";
+@import "sertif";
+@import "maps";
+@import "media";
+@import "overlay";
+

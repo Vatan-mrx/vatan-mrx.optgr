@@ -1,0 +1,29 @@
+.people {
+    padding-bottom: 59px;
+    &__zag {
+        @include text ($GothamPro900, 48px, 
+        #333333);
+        margin-bottom: 25px;
+    }
+    &__text {
+        @include text ($GothamPro700, 14px, 
+        #000000);
+        margin-bottom: 15px;
+        line-height: 170%;
+        span {
+            @include text ($GothamPro900, 14px, 
+            #000000);
+        }
+    }
+    &__text:nth-child(4) {
+        margin-bottom: 50px;
+    }
+    .col-12.col-md-6:first-child {
+        z-index: 11;
+    }
+    &__img {
+        margin-top: -100px;
+        width: 600px;
+        margin-left: -80px;
+    }
+}

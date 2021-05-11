@@ -1,0 +1,64 @@
+.header {
+    padding: 19px 0;
+    border-bottom: 1px solid #EDEDED;
+    &__row {
+        display: flex;
+    }
+    &__vector {
+        @include text ($GothamPro300, 11px, #7D7D7D);
+        margin-left: 72px;
+        display: flex;
+        img {
+            width: 13.38px;
+            height: 18px;
+        }
+    }
+    &__adress {
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+    &__rab {
+        @include text ($GothamPro700, 11px, #CCCCCC);
+        margin-left: 64px;
+    }
+    &__numem {
+        @include text ($GothamPro300, 11px, #7D7D7D);
+        margin-left: 60px;   
+    }
+    &__title {
+        line-height: 15px;
+        margin-top: -4px;
+    }
+    &__button {
+        @include text ($GothamPro300, 11px, #F79900);
+        border: 1px solid#F79900;
+        width: 136px;
+        height: 26px;
+        background-color: #fff;
+        margin-left: 80px;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+            background-color: #F79900;
+            color: #fff;
+            transition-duration: 0.6s;
+        }
+    }
+    &__free {
+        margin-left: 68px;
+    }
+    &__number{
+        @include text ($GothamPro700, 14px,#000000);
+        font-weight: 700;
+    }
+    &__zvonok{
+        @include text ($GothamPro300, 12px, #F79900);
+        text-decoration: none;
+        &:hover {
+            background-color: #F79900;
+            border-radius: 3px;
+            color: #fff;
+            transition-duration: 0.8s;
+        }
+    }
+}

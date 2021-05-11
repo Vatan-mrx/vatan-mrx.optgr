@@ -1,0 +1,112 @@
+.form {
+    padding-top: 88px;
+    padding-bottom: 81px;
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    &__block {
+        margin-left: 120px;
+    }
+    &__title {
+        @include text ($GothamPro900, 48px, #333333);
+        margin-bottom: 35px;
+    }
+    &__subtitle {
+        @include text ($GothamPro700, 14px, #000000);
+        line-height: 170%;
+        margin-bottom: 10px;
+            span {
+                @include text ($GothamPro900, 14px, 
+                #000000);
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+    }
+    &__textp {
+        margin-bottom: 5px;
+    }
+    &__text {
+        @include text ($GothamPro300, 16px, #000000);
+        margin-bottom: 20px;
+        span {
+            @include text ($GothamPro300, 16px, #F79900);
+        }
+    }
+    &__img {
+        margin-left: -130px;
+    }
+    &__button {
+        @include text ($GothamPro300, 16px, #fff);
+        margin-top: 40px;
+        width: 100%;
+        height: 56px;
+        margin-bottom: 30px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: #F79900;
+        text-align: center;
+        &:hover {
+            background-color: #fff;
+            color: #F79900;
+            border: 2px solid #F79900;
+            transition-duration: 0.8s;
+        }
+
+    }
+    &__part {
+        @include text ($GothamPro300, 12px, #000000);
+        line-height: 150%;
+    }
+    &__typeText {
+        width: 100%;
+        padding: 23px 0 23px 23px;
+        border: 3px solid #BBBBBB;
+        outline: none;
+        &::placeholder {
+            @include text ($GothamPro300, 16px, #BBBBBB);
+        }
+        &:valid:not(:placeholder-shown) {
+            border: 3px solid #0c0;
+        }
+        &:invalid:not(:placeholder-shown) {
+            border: 3px solid #c00;
+        }
+    }
+    &__typeTel {
+        outline: none;
+        width: 100%;
+        padding: 23px 0 23px 23px;
+        border: 3px solid #BBBBBB;
+        &::placeholder {
+            @include text ($GothamPro300, 16px, #BBBBBB);
+        }
+        &:valid:not(:placeholder-shown) {
+            border: 3px solid #0c0;
+        }
+        &:invalid:not(:placeholder-shown) {
+            border: 3px solid #c00;
+        }
+    }
+    &__typeEmail {
+        outline: none;
+        width: 100%;
+        padding: 23px 0 23px 23px;
+        border: 3px solid #BBBBBB;
+        &::placeholder {
+            @include text ($GothamPro300, 16px, #BBBBBB);
+        }
+    }
+    &__typeAria {
+        outline: none;
+        resize: none;
+        width: 100%;
+        padding: 23px 0 23px 23px;
+        border: 3px solid #BBBBBB;
+        &::placeholder {
+            @include text ($GothamPro300, 16px, #BBBBBB);
+        }
+    }
+}

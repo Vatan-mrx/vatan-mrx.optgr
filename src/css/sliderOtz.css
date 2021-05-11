@@ -1,0 +1,40 @@
+.sliderOtz {
+  padding-top: 50px;
+}
+.sliderOtz img {
+  width: 100%;
+}
+.sliderOtz .swiper-button-next:after {
+  font-size: 20px;
+}
+.sliderOtz .swiper-button-prev:after {
+  font-size: 20px;
+}
+.sliderOtz .swiper-button-next {
+  position: absolute;
+  top: 80%;
+  left: 79%;
+  color: #7D7D7D;
+}
+.sliderOtz .swiper-button-next::before {
+  content: "";
+  position: absolute;
+  width: 160%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #7D7D7D;
+}
+.sliderOtz .swiper-button-prev {
+  position: absolute;
+  top: 80%;
+  left: 75%;
+  color: #7D7D7D;
+}
+.sliderOtz .swiper-button-prev::before {
+  content: "";
+  position: absolute;
+  width: 160%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #7D7D7D;
+}

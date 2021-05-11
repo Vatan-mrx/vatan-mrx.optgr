@@ -1,0 +1,39 @@
+.bisnes {
+    padding-bottom: 110px;
+    .col-12.col-md-3.col-sm-6 {
+        background-color: #333333;
+        padding: 55px 40px 48px 40px;
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(2) {
+        background-color: #F79900;
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(4) {
+        background-color: #F79900;
+    }
+    &__title {
+        @include text ($GothamPro900, 18px, #fff);
+        margin-bottom: 23px;
+    }
+    &__subtitle {
+        @include text ($GothamPro300, 12px, #fff);
+        line-height: 130%;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 20px;
+    }
+    
+    &__more1 {
+        @include text ($GothamPro300, 13px, #fff); 
+        &:hover {
+            color: #F79900;
+            transition-duration: 0.7s;
+        }  
+    }
+    &__more2 {
+        @include text ($GothamPro300, 13px, #fff); 
+        &:hover {
+            color: #333333;
+            transition-duration: 0.7s;
+        }  
+    }
+}

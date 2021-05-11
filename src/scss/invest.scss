@@ -1,0 +1,42 @@
+.invest {
+    padding-bottom: 91px;
+    &__title {
+        @include text ($GothamPro900, 48px, #F79900);
+        text-align: center;
+    }
+    &__subtitle {
+        @include text ($GothamPro300, 18px, #000000);
+        text-align: center;
+        line-height: 150%;
+        padding-top: 31px;
+    }
+    &__img {
+        width: 100%;
+        height: 574px;
+    }
+    &__block {
+        width: 100%;
+        height: 574px;
+        padding-top: 170px;
+        border: 16px solid #F79900;
+    }
+    &__button {
+        padding-top: 31px;
+        text-align: end;
+    }
+    &__btn {
+        @include text ($GothamPro700, 14px, #fff);
+        padding: 24px 46px 20px 46px;
+        outline: none;
+        border: none;
+        background-color: #F79900;
+        cursor: pointer;
+        &:hover {
+            border-radius: 3px;
+            color: #F79900;
+            background-color: #fff;
+            border: 1px solid #F79900;
+            transition-duration: 0.8s;
+        }
+    }
+}

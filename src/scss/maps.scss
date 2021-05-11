@@ -1,0 +1,50 @@
+.maps {
+    border-bottom: 1px solid #D8D8D8;
+    .row {
+        justify-content: center;
+        align-items: center;
+    }
+    &__map {
+        position: relative;
+    }
+    &__title {
+        @include text ($GothamPro900, 25px, #fff);
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    &__tel {
+        @include text ($GothamPro900, 18px, #fff);
+        margin-bottom: 25px;
+    }
+    &__subtitle {
+        @include text ($GothamPro300, 14px, #fff);
+        margin-bottom: 5px;
+    }
+    &__subtitle:nth-child(4) {
+        margin-bottom: 20px;
+    }
+    &__text {
+        @include text ($GothamPro300, 16px, #000000);
+        margin-bottom: 20px;
+    }
+    &__text:last-child {
+        @include text ($GothamPro300, 16px, #000000);
+        margin-bottom: 57px;
+    }
+    .col-12.col-md-3.col-sm-6 {
+        width: 300px;
+        height: 300px;
+        background-color: #333333;
+        margin-left: 30px;
+        margin-top: -70px;
+        z-index: 2;
+        margin-bottom: 82px;
+        
+    }
+    .col-12.col-md-3.col-sm-6:first-child {
+        margin-left: 0;
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(2) {
+        background-color: #F79900;
+    }
+}

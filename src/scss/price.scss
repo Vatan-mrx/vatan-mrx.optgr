@@ -1,0 +1,36 @@
+.price {
+    padding-top: 65px;
+    &__img {
+        margin-bottom: -5px;
+    }
+    &__title {
+        margin-top: 50px;
+        @include text ($GothamPro900, 62px, #D7D7D7);
+        margin-bottom: 42px;
+    }
+    &__subtitle {
+        @include text ($GothamPro700, 14px, #000000);
+        margin-bottom: 20px;
+        line-height: 160%;
+        span {
+            color: #F79900;
+        }
+    }
+    &__text {
+        display: flex;
+        margin-top: 70px;
+    }
+    &__kavich {
+        @include text ($GothamPro900, 70px, #000000);
+        margin-top: -15px;
+    }
+    &__name {
+        @include text ($GothamPro500, 14px, #000000);
+        margin-left: 40px;
+        line-height: 150%;
+        span {
+            @include text ($GothamPro300, 12px, 
+            #D7D7D7);
+        }
+    }
+}

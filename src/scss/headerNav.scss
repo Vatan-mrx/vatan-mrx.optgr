@@ -1,0 +1,100 @@
+.headerNav {
+    padding: 26px 0 36px 0;
+    &__ul {
+        list-style-type: none;
+        display: flex;
+    }
+    &__a {
+        @include text ($GothamPro300, 14px, #000000);
+        text-decoration: none;
+        font-weight: 700;
+        &:hover {
+            background-color: #F79900;
+            color: #fff;
+            transition-duration: 0.7s;
+            border-radius: 3px;
+            font-size: 15px;
+        }
+        
+    }
+    &__li {
+        margin-right: 105px;
+        padding-bottom: 15px;
+    }
+    &__li:hover &__menu{
+        display: flex;
+        padding-bottom: 40px;
+        background-color: #F79900;
+        padding: 5px 0 5px 5px;
+        border-radius: 3px;
+    }
+    &__menu:hover {
+        display: flex;
+        padding-bottom: 40px;
+        background-color: #F79900;
+        padding: 5px 0 5px 5px;
+        border-radius: 3px;
+    }
+    &__menu {
+        position: absolute;
+        display: none;
+        list-style-type: none;
+        left: 0;
+        top: 20px;
+        width: 850px;
+        z-index: 20;
+    }
+    &__link {
+        @include text ($GothamPro300, 14px, #000000);
+        text-decoration: none;
+        padding-right: 30px;
+        &:hover {
+            color: #fff;
+            transition-duration: 0.8s;
+        }
+    }
+    &__li:last-child {
+        margin-right: 0;
+    }
+    &__link-title {
+        cursor: pointer;
+        @include text ($GothamPro300, 14px, #000000);
+        z-index: 1;
+        &:hover {
+            background-color: #F79900;
+            color: #fff;
+            font-size: 15px;
+            transition-duration: 0.7s;
+            border-radius: 3px;
+        }
+        &::before {
+            position: absolute;
+            content: url("../images/Header/Vectoruug.svg");
+            left: 105%;
+        }
+    }
+    &__link-title1 {
+        cursor: pointer;
+        @include text ($GothamPro300, 14px, #000000);
+        z-index: 1;
+        &:hover {
+            background-color: #F79900;
+            color: #fff;
+            transition-duration: 0.7s;
+            border-radius: 3px;
+            font-size: 15px;
+        }
+        &::before {
+            position: absolute;
+            content: url("../images/Header/Vectoruug.svg");
+            left: 105%;
+        }
+    }
+    &__li:nth-child(2) {
+        position: relative;
+    }
+    &__li:nth-child(1) {
+        position: relative;
+    }
+}
+

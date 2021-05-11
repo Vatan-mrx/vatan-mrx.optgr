@@ -1,0 +1,258 @@
+@import url(c:\prog gg\project opt group\src\fonts\gothampro\stylesheet.css);
+@import url(c:\prog gg\project opt group\src\libs\bootsrap\bootstrap-grid.min.css);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 19px 0;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__vector {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 11px;
+  color: #7D7D7D;
+  margin-left: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__vector img {
+  width: 13.38px;
+  height: 18px;
+}
+
+.header__adress {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.header__rab {
+  font-family: "Gotham Pro 700", sans-serif;
+  font-size: 11px;
+  color: #CCCCCC;
+  margin-left: 64px;
+}
+
+.header__numem {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 11px;
+  color: #7D7D7D;
+  margin-left: 60px;
+}
+
+.header__title {
+  line-height: 15px;
+  margin-top: -4px;
+}
+
+.header__button {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 11px;
+  color: #F79900;
+  border: 1px solid #F79900;
+  width: 136px;
+  height: 26px;
+  background-color: #fff;
+  margin-left: 80px;
+  outline: none;
+  cursor: pointer;
+}
+
+.header__free {
+  margin-left: 68px;
+}
+
+.header__number {
+  font-family: "Gotham Pro 700", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.header__zvonok {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 12px;
+  color: #F79900;
+  text-decoration: none;
+}
+
+.headerNav {
+  padding: 26px 0;
+}
+
+.headerNav__ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerNav__a {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 8%;
+}
+
+.headerNav__a:last-child {
+  margin-right: 0;
+}
+
+.headerSlider {
+  padding-bottom: 92px;
+}
+
+.headerSlider .owl-carousel .owl-item img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.headerSlider__img:last-child {
+  width: 110%;
+}
+
+.headerSlider__img {
+  position: relative;
+}
+
+.headerSlider .owl-dots {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.headerSlider .owl-theme .owl-dots .owl-dot span {
+  background-color: #000;
+  border: 1px solid #575757;
+}
+
+.headerSlider .owl-theme .owl-dots .owl-dot span:hover {
+  background-color: #F79900;
+}
+
+.headerSlider .headerSlider .owl-theme .owl-dots .owl-dot span {
+  background-color: #F79900;
+}
+
+.online {
+  padding-bottom: 96px;
+}
+
+.online__title {
+  font-family: "Gotham Pro 900", sans-serif;
+  font-size: 48px;
+  color: #333333;
+}
+
+.online__title1 {
+  font-family: "Gotham Pro 900", sans-serif;
+  font-size: 48px;
+  color: #F79900;
+  margin-bottom: 30px;
+}
+
+.online__subtitle {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 18px;
+  color: #7D7D7D;
+}
+
+.online__subtitle span {
+  color: #F79900;
+}
+
+.bisnes {
+  padding-bottom: 110px;
+}
+
+.bisnes .col-12.col-md-3.col-sm-6 {
+  background-color: #333333;
+  padding: 55px 40px 48px 40px;
+}
+
+.bisnes .col-12.col-md-3.col-sm-6:nth-child(2) {
+  background-color: #F79900;
+}
+
+.bisnes .col-12.col-md-3.col-sm-6:nth-child(4) {
+  background-color: #F79900;
+}
+
+.bisnes__title {
+  font-family: "Gotham Pro 900", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.bisnes__subtitle {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  line-height: 130%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+
+.bisnes__more {
+  font-family: "Gotham Pro 300", sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+
+.people {
+  padding-bottom: 59px;
+}
+
+.people__zag {
+  font-family: "Gotham Pro 900", sans-serif;
+  font-size: 48px;
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+.people__text {
+  font-family: "Gotham Pro 700", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 170%;
+}
+
+.people__text span {
+  font-family: "Gotham Pro 900", sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.people__text:nth-child(4) {
+  margin-bottom: 50px;
+}
+
+.people__img {
+  margin-top: -100px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,179 @@
+.work {
+    padding-top: 109px;
+    &__title {
+        @include text ($GothamPro900, 48px, #333333);
+        text-align: center;
+    }
+    &__content {
+        display: none;
+        &_active {
+            display: block;
+        }
+      }
+      &__caption {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    &__item {
+        @include text ($GothamPro500, 18px, #000000);
+        margin-right: 88px;
+        margin-bottom: 38px;
+        &_active {
+            color: #F79900;
+            border-bottom: 5px solid #F79900;
+        }
+        &:hover {
+            color: #F79900;
+            border-bottom: 5px solid #F79900;
+            transition-duration: 0.3s;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .swiper-button-next:after {
+        font-size: 20px;
+    }
+    .swiper-button-prev:after {
+        font-size: 20px;
+    }
+    .swiper-button-nexts {
+        position: absolute;
+        top: 80%;
+        right: 70%;
+        color: #7D7D7D;
+        z-index: 2;
+      &::before {
+          content: '';
+          position: absolute;
+          width: 140%;
+          height: 90%;
+          border-radius: 50%;
+          border: 2px solid #7D7D7D;
+      }
+    }
+    .swiper-button-prevs {
+      position: absolute;
+      top: 80%;
+      left: 13%;
+      color: #7D7D7D;
+      z-index: 2;
+      &::before {
+          content: '';
+          position: absolute;
+          width: 140%;
+          height: 90%;
+          border-radius: 50%;
+          border: 2px solid #7D7D7D;
+      }
+  }
+    &__block {
+        width: 574px;
+        height: 543px;
+        padding-top: 80px;
+        padding-left: 55px;
+        border: 16px solid #F79900;
+    }
+    &__text {
+        @include text ($GothamPro300, 14px, #000000);
+        line-height: 170%;
+        margin-bottom: 10px;
+        margin-right: 88px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        span {
+            @include text ($GothamPro900, 14px, 
+            #000000);
+        }
+    }
+    &__more {
+        margin-top: 50px;
+        margin-bottom: 68px;
+    }
+    &__textA {
+        @include text ($GothamPro300, 14px, #c6c6c6);
+        &:hover {
+            color: #F79900;
+            transition-duration: 0.8s;
+        }
+    }
+    &__vector {
+        margin-left: 5px;
+    }
+    &__button {
+        padding-top: 31px;
+        text-align: end;
+    }
+    &__btn {
+        @include text ($GothamPro700, 14px, #fff);
+        padding: 24px 46px 20px 46px;
+        outline: none;
+        border: none;
+        background-color: #F79900;
+        cursor: pointer;
+        &:hover {
+            border-radius: 3px;
+            color: #F79900;
+            background-color: #fff;
+            transition-duration: 0.8s;
+        }
+    }
+    &__blockA{
+        width: 574px;
+        height: 543px;
+        padding-top: 80px;
+        padding-left: 55px;
+        border: 16px solid #F79900;
+        background-color: #F79900
+    }
+    &__text1 {
+        @include text ($GothamPro300, 14px, #fff);
+        line-height: 170%;
+        margin-bottom: 10px;
+        margin-right: 88px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        span {
+            @include text ($GothamPro900, 14px, 
+            #fff);
+        }
+    }
+    &__more1 {
+        margin-top: 50px;
+        margin-bottom: 68px;
+    }
+    &__textA1 {
+        @include text ($GothamPro300, 14px, #fff);
+        &:hover {
+            color: #333333;
+            transition-duration: 0.8s;
+        }
+    }
+    &__vector1 {
+        margin-left: 5px;
+    }
+    &__button1 {
+        padding-top: 31px;
+        text-align: end;
+    }
+    &__btn1 {
+        @include text ($GothamPro700, 14px, #fff);
+        padding: 24px 46px 20px 46px;
+        outline: none;
+        border: none;
+        background-color: #F79900;
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+            border-radius: 3px;
+            color: #F79900;
+            background-color: #fff;
+            transition-duration: 0.8s;
+        }
+    }
+}

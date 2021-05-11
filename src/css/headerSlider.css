@@ -1,0 +1,7 @@
+.headerSlider {
+  padding-bottom: 92px;
+}
+.headerSlider .owl-carousel .owl-item img {
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,94 @@
+.sotr {
+    &__block1 {
+        background-color: #333333;
+        background-size: contain;
+    }
+    &__blockImg {
+        text-align: start;
+    }
+    &__text {
+       margin-left: -30%;
+    }
+    &__img {
+        margin-top: -34px;
+        margin-bottom: 91px;
+    }
+    &__name {
+        margin-top: 90px;
+        @include text ($GothamPro300, 24px, #fff);
+        margin-bottom: 5px;
+    }
+    &__title {
+        @include text ($GothamPro300, 12px, #fff);
+        line-height: 150%;
+        margin-bottom: 30px;
+        span {
+            @include text ($GothamPro300, 12px, #fff);
+            
+        }
+    }
+    &__subtitle {
+        @include text ($GothamPro300, 14px, #fff);
+        margin-bottom: 30px;
+        
+    }
+    &__btn {
+        @include text ($GothamPro700, 14px, #fff);
+        padding: 20px 40px 20px 40px;
+        outline: none;
+        border: none;
+        background-color: #F79900;
+        cursor: pointer;
+        margin-bottom: 91px;
+        &:hover {
+            border-radius: 3px;
+            color: #F79900;
+            background-color: #fff;
+            border: 1px solid #F79900;
+            transition-duration: 0.8s;
+        }
+    }
+    &__blockImg {
+        text-align: end;
+    }
+     &__img1 {
+         margin-top: -34px;
+         margin-bottom: 91px;
+     }
+     &__name1 {
+         margin-top: 90px;
+         @include text ($GothamPro300, 24px, #000000);
+         margin-bottom: 5px;
+     }
+     &__title1 {
+         @include text ($GothamPro300, 12px, #000000);
+         line-height: 150%;
+         margin-bottom: 30px;
+         span {
+             @include text ($GothamPro300, 12px, #000000);
+             
+         }
+     }
+     &__subtitle1 {
+         @include text ($GothamPro300, 14px, #000000);
+         margin-bottom: 30px;
+         width: 131%;
+         
+     }
+     &__btn1 {
+         @include text ($GothamPro700, 14px, #fff);
+         padding: 20px 40px 20px 40px;
+         outline: none;
+         border: none;
+         background-color: #F79900;
+         cursor: pointer;
+         margin-bottom: 91px;
+         &:hover {
+             border-radius: 3px;
+             color: #F79900;
+             background-color: #fff;
+             border: 1px solid #F79900;
+             transition-duration: 0.8s;
+         }
+     }
+}

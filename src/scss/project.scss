@@ -1,0 +1,65 @@
+.project {
+    margin-top: -4px;  
+    background: url("../images/project/bcg.png")no-repeat;
+    background-size: contain;
+    .col-12.col-md-3.col-sm-6 {
+        margin-top: 90px;
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(1){
+        text-align: center;
+        z-index: 1;
+        padding: 52px 63px 52px 63px;
+        border: 10px solid #F79900;
+        background-color: #fff;
+        
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(2){
+        border: 10px solid #333333;
+        background-color: #fff;
+        text-align: center;
+        padding: 52px 63px 52px 63px;
+        z-index: 1;
+        
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(3){
+        border: 10px solid #F79900;
+        background-color: #fff;
+        text-align: center;
+        padding: 52px 63px 52px 63px;
+        z-index: 1;
+        
+    }
+    .col-12.col-md-3.col-sm-6:nth-child(4){
+        border: 10px solid #333333;
+        background-color: #fff;
+        text-align: center;
+        padding: 52px 63px 52px 63px;
+        z-index: 1;
+        
+    }
+    &__number1 {
+        @include text ($GothamPro900, 96px,#F79900);
+        margin-bottom: 8px;
+    }
+    &__number2 {
+        @include text ($GothamPro900, 96px,#000000);
+        margin-bottom: 8px;
+    }
+    &__number3 {
+        @include text ($GothamPro900, 96px,#F79900);
+        margin-bottom: 8px;
+        margin-left: -18px;
+    }
+    &__title {
+        @include text ($GothamPro300, 14px, #000000);
+        margin-bottom: -6px;
+    }
+    &__subtitle {
+        @include text ($GothamPro300, 14px, #000000);
+        margin-bottom: 23px;
+        line-height: 150%;
+    }
+    &__str {
+        cursor: pointer;
+    }
+}

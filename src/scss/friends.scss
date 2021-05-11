@@ -1,0 +1,31 @@
+.friends {
+    padding-top: 88px;
+    &__zag {
+        @include text ($GothamPro900, 48px, #333333);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__img {
+        cursor: pointer;
+    }
+    &__title {
+        @include text ($GothamPro300, 14px, #000000);
+        margin-bottom: 13px;
+        text-align: center;
+        span {
+            @include text ($GothamPro900, 14px, 
+            #000000);
+        }
+        
+    }
+    &__subtitle {
+        @include text ($GothamPro300, 14px, #000000);
+        text-align: center;
+        line-height: 150%;
+        margin-bottom: 40px;
+        span {
+            @include text ($GothamPro900, 14px, 
+            #000000);
+        }
+    }
+}

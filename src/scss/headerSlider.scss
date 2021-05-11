@@ -1,0 +1,30 @@
+.headerSlider {
+    padding-bottom: 92px;
+    .owl-carousel .owl-item img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__img:last-child {
+        width: 110%;
+    }
+    &__img {
+        position: relative;
+    }
+    .owl-dots {
+        position: absolute; 
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%);
+    } 
+    .owl-theme .owl-dots .owl-dot span {
+        background-color: #000;
+        border: 1px solid #575757;
+        &:hover {
+            background-color: #F79900;
+        }
+    }
+    .headerSlider .owl-theme .owl-dots .owl-dot span {
+        background-color: #F79900;
+    }
+
+}
